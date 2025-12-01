@@ -67,8 +67,6 @@ Step 6: Test Zero Trust Access
 # Future Improvements/Configurations
 - Integrate Azure Sentinel for advanced monitoring and alerts. (Configured but found difficulty)
 - Privileged Identity Management (PIM)
-    - Force “approval + time limit” for admin roles
-    - Shows real-world enterprise control
  - PowerShell Automation Scripts
 
 # About Me
