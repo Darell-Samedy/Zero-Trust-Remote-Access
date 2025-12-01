@@ -59,3 +59,11 @@ Step 6: Test Zero Trust Access
 - Gained hands-on experience with Azure networking and security services.
 - Implemented secure remote access for internal applications.
 - Learned how to monitor, troubleshoot, and log network activity in Azure.
+
+# About Me
+
+I’m Darell Samedy, a technology enthusiast specializing in cloud security, networking, and IT infrastructure. This project reflects my hands-on approach to implementing modern security practices in real-world cloud environments.
+
+GitHub: https://github.com/DarellSamedy
+
+LinkedIn: https://linkedin.com/in/darellsamedy
