@@ -4,18 +4,20 @@
 
 Zero Trust Remote Access Platform
 
-This repository showcases my Zero Trust Remote Access project, designed and implemented in Microsoft Azure. The project demonstrates modern cloud security principles, including identity-based access, network segmentation, and secure remote connectivity, without exposing resources to the public internet. It’s a practical example of my skills in cloud security, networking, and enterprise-level architecture, designed to demonstrate hands-on experience for IT, cybersecurity, and cloud-focused roles.
+Hi, I’m Darell Samedy. This repository demonstrates a Zero Trust Remote Access implementation in Microsoft Azure using multi-factor authentication (MFA) with Microsoft Authenticator, identity-based access, and secure network architecture. This project simulates how modern organizations allow secure access to internal systems without exposing resources to the public internet, following the Zero Trust principle: Never trust, always verify. The goal of this lab was to gain hands-on experience with cloud security, identity protection, and secure remote access using enterprise-grade Microsoft technologies.
 
 # Features
 
 - Zero Trust Architecture – Implements least-privilege access principles.
 - Secure Remote Access – Uses Azure Bastion to connect to internal VMs without public IP exposure.
+- Multi-Factor Authentication (MFA) – Enforced using Microsoft Authenticator
 - Network Segmentation – Hub and application VNets for secure isolation.
 - Access Control – Identity-based authentication and authorization.
 - Monitoring & Logging – Integration with Azure Monitor and Log Analytics for visibility and auditing. 
 
 Tools & Technologies
 - Cloud Platform: Microsoft Azure
+- Identity & MFA: Azure Entra ID, Microsoft Authenticator
 - Networking: VNets, Subnets, NSGs, VNet Peering
 - Security: Azure Bastion, Azure Firewall, Zero Trust Principles
 - Monitoring: Azure Monitor, Log Analytics
@@ -43,31 +45,40 @@ Step 3: Configure Access Policies
   - Configured network security groups (NSGs) to enforce traffic rules.
   - Verified access restrictions by testing unauthorized connection attempts.
 
-Step 4: Deploy Virtual Machines
+Step 4: Identity Protection (MFA)
+  - Enabled Multi-Factor Authentication (MFA) using Microsoft Authenticator
+  - Linked user identity to Entra ID
+  - Required MFA verification before gaining access
+
+Step 5: Deploy Virtual Machines
   - Deployed Windows Server and Ubuntu Linux VMs in the App VNet.
   - Configured firewall rules inside VMs and ensured Bastion access only.
   - Installed minimal services for testing connectivity and monitoring.
 
-Step 5: Enable Monitoring & Logging
+Step 6: Enable Monitoring & Logging
   - Connected VNets and VMs to Azure Log Analytics.
   - Configured logging for network rules, application rules, and NSG flows.
   - Verified logs to confirm network activity and successful access events.
 
-Step 6: Test Zero Trust Access
+Step 7: Test Zero Trust Access
   - Attempted access from devices outside the network.
   - Verified that only authenticated users via Bastion could connect.
   - Confirmed that traffic from unauthorized sources was blocked.
 
 # Learning Outcomes
 - Applied Zero Trust security principles in a cloud environment.
+- Implemented Zero Trust + MFA in a cloud environment
 - Gained hands-on experience with Azure networking and security services.
 - Implemented secure remote access for internal applications.
 - Learned how to monitor, troubleshoot, and log network activity in Azure.
 
-# Future Improvements/Configurations
-- Integrate Azure Sentinel for advanced monitoring and alerts. (Configured but found difficulty)
-- Privileged Identity Management (PIM)
- - PowerShell Automation Scripts
+# Future Improvements: 
+- Azure Sentinel (SIEM + SOAR)
+- Conditional Access Policies
+- Just-In-Time (JIT) VM Access
+- Private Endpoints
+- Defender for Cloud integration
+- Terraform automation
 
 # About Me
 
