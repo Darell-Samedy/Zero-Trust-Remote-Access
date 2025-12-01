@@ -24,7 +24,7 @@ Tools & Technologies
 
 # Diagram of Project:
 
-![image_alt]()
+![image_alt](https://github.com/Darell-Samedy/Zero-Trust-Remote-Access/blob/main/screenshots/ZERO%20TRUST%20DIAGRAM%20HOMELAB.png?raw=true)
 
 # Implementation Steps ( All Screenshots/Configurations located within the screenshots folder )
 
@@ -63,6 +63,13 @@ Step 6: Test Zero Trust Access
 - Gained hands-on experience with Azure networking and security services.
 - Implemented secure remote access for internal applications.
 - Learned how to monitor, troubleshoot, and log network activity in Azure.
+
+# Future Improvements/Configurations
+- Integrate Azure Sentinel for advanced monitoring and alerts. (Configured but found difficulty)
+- Privileged Identity Management (PIM)
+    - Force “approval + time limit” for admin roles
+    - Shows real-world enterprise control
+ - PowerShell Automation Scripts
 
 # About Me
 
