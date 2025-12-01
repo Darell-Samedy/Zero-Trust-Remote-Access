@@ -22,6 +22,10 @@ Tools & Technologies
 - OS: Windows Server, Ubuntu Linux
 - Protocols: SSH, RDP, HTTPS
 
+# Diagram of Project:
+
+![image_alt]()
+
 # Implementation Steps ( All Screenshots/Configurations located within the screenshots folder )
 
 Step 1: Set up Virtual Networks (VNets)
